@@ -15,11 +15,11 @@ link:
   * Display information: how many items were replaced
   * UX:  misuse prevention logic 
 
-####  Find
+###  Find
 ![-](Images/found.png)
 
 ![-](Images/found_1.png)
 
-####  Find and replace
+###  Find and replace
 ![-](Images/replace.png)
 
