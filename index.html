@@ -10,19 +10,58 @@
 
 <body>
     <main>
-        
+
         <fieldset>
+
             <legend>Find &amp; Replace Text</legend>
 
-            <label for="find-input">Find:</label>
-            <input type="text" name="find-input" class="find-input"><br>
+            <fieldset>
 
-            <label for="replace-input">Replace With:</label>
-            <input type="text" name="replace-input" class="replace-input"><br>
+                <legend>Find Text</legend>
 
-            <button class="replace-all-button">Replace All</button>
+                <label for="find-input">Find:</label>
+
+                <input type="text" name="find-input" class="find-input">
+
+                <button id="refresh">Refresh</button>
+
+                <span id="search_result" style="color: red"></span> <br>
+
+                <input type="checkbox" id="myCheck"> Case-insensitive search: <br>
+
+                <button class="find-all-button" style="color: blue">Find ALL</button>
+
+                <button id="find_one_by_one" style="color: blue">Find FIRST</button>
+
+            </fieldset> <br>
+
+
+            <fieldset>
+
+                <legend>Find &amp; Replace Text</legend>
+
+                <label for="find_toReplace_input">Find:</label>
+
+                <input type="text" name="find_toReplace_input" class="find_toReplace_input">
+
+                <label for="replace_input">Replace With:</label>
+
+                <input type="text" name="replace_input" class="replace_input">
+
+                <button id="refresh1">Refresh</button>
+
+                <span id="replace_result" style="color: red"></span> <br>
+
+                <button class="replace_all_button" style="color: blue">Replace ALL</button>
+
+                <button id="replace_one_by_one" style="color: blue">Replace FIRST</button>
+
+                <button id="replace_next" style="color: blue">Replace NEXT</button>
+
+            </fieldset>
+
         </fieldset>
-        
+
         <div class="grid">
 
             <div class="column-headers">
@@ -244,7 +283,7 @@
             </div>
             <div class="row">
                 <div class="cell" contenteditable="true">Carson V. Watson</div>
-                <div class="cell" contenteditable="true">Bibendum Fermentum Metus Corporation</div>
+                <div class="cell" contenteditable="true">Bibendum </div>
                 <div class="cell" contenteditable="true">8792 Mauris Rd.</div>
                 <div class="cell" contenteditable="true">Smolensk</div>
                 <div class="cell" contenteditable="true">424960</div>
@@ -284,6 +323,7 @@
     </main>
 
     <script src="main.js"></script>
+
 </body>
 
 </html>

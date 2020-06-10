@@ -13,11 +13,17 @@
 fieldset {
     border: 1px dotted gray;
     margin-bottom: var(--base-size);
-    font-variant-caps: all-small-caps;
+    /* font-variant-caps: all-small-caps; */
+}
+
+fieldset {
+    /* border: #87CEFA 1px solid; */
+    border: 1px solid grey;
 }
 
 fieldset label {
     font-variant-caps: normal;
+    
 }
 
 input {
@@ -25,6 +31,8 @@ input {
 }
 
 button {
+margin-left: 40px;
+width: 110px;
 
 }
 
@@ -65,3 +73,24 @@ button {
 .row .cell:hover {
     background: lightsteelblue;
 }
+
+#myCheck {
+    margin-left: 40px;;
+}
+
+.highlight {
+    background-color: yellow;
+  }
+
+  .z {
+    background-color: yellow;
+  }
+
+  .highlight_find {
+    background-color: gainsboro;
+  }
+ 
+  .active{
+    background-color: red;
+  }
+
